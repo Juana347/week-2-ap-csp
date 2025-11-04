@@ -26,6 +26,18 @@ q2 = int(input("what year were you born?"))
 answer = q1 - q2
 result = print(f'you are {answer} years old')
 
+def personage():
+    q1 = int(input("what year is it now?"))
+    q2 = int(input("what year were you born?"))
+    answer = q1 - q2
+    result = print(f'you are {answer} years old')
+personage()
+personage()
+personage()
+
+
 # git add .
 # git commit -m "abstraction"
 # git push origin
+# if you get an error
+# git push origin--force

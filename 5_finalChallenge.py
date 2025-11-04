@@ -17,3 +17,8 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+q1 = input("What state do you live in?")
+q2 = input("Whats your favorite animal")
+name = q1 + q2
+result = print(f"You should name your beer, The {name}")
